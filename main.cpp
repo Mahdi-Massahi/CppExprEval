@@ -20,7 +20,7 @@ int main() {
     T X = 12.0;
     T Y = 21.0;
 
-    // Define the SMA and CROSS functions, and add them to a symbol_table
+    // Define functions, and add them to a symbol_table
     symbol_table_t symbol_table;
     symbol_table.add_variable("X", X);
     symbol_table.add_variable("Y", Y);
